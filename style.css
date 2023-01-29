@@ -1,0 +1,31 @@
+.terminal-message {
+  color: #fff;
+  font-family: monospace;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.terminal-input {
+  outline: none !important;
+  display: inline;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+}
+
+.terminal-cursor {
+  display: inline;
+  animation: 1.3s blink step-end infinite;
+}
+
+@keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: inherit;
+  }
+}
